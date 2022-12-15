@@ -10,7 +10,6 @@ const theme = {
     footer:'',
     primary:'#90a0d9'
   }
-  
 }
 
 
