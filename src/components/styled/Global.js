@@ -14,5 +14,8 @@ const GlobalStyles = createGlobalStyle`
     body{
         background-color: ${({theme})=>theme.colors.body};
     }
+    a{
+        text-decoration:none;
+    }
 `;
 export default GlobalStyles;

@@ -67,7 +67,6 @@ const HeaderWrapper = styled.header`
         margin-left:1.6rem;
         
         a{
-          text-decoration:none;
           color:#90a0d9;
           font-weight:400;
         }
