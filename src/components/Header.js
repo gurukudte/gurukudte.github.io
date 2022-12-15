@@ -4,12 +4,12 @@ import styled from 'styled-components';
 const Header = () => {
   return (
     <HeaderWrapper>
-      <h3><a href="https://gurukudte-fictional-barnacle-p5j7jxw5qq7fr9j6-3000.preview.app.github.dev/">Guru.K(dev)</a></h3>
+      <h3><a href="https://gurukudte.github.io/">Guru.K(dev)</a></h3>
       <nav>
         <ul>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Skills</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
     </HeaderWrapper>
@@ -36,8 +36,24 @@ const HeaderWrapper = styled.header`
     a{
       padding: 0 0 0.3em;
       position: relative;
-      color:#90a0d9;
+      color: ${({theme})=>theme.colors.primary};
       text-decoration: none;
+
+      &:before{
+        content: "";
+        display: inline;
+        width: 0;
+        height: 0.2em;
+        position: absolute;
+        bottom: 0;
+        transition: width .9s ease-in;
+      }
+      &:hover{
+        &:before{
+          width:100%;
+          background-color:${({theme})=>theme.colors.primary};
+        }
+      }
     }
   }
 
@@ -58,5 +74,4 @@ const HeaderWrapper = styled.header`
       }
     }    
   }
-
 `;

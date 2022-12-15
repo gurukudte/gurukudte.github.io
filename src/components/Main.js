@@ -10,7 +10,7 @@ const Main = () => {
         </h1>
         <h2>A Front End Engineer.</h2>
         <p>
-          My interests are in Front End Engineering, and I love to create
+          I love to create
           beautiful and performant products with delightful user experiences.
         </p>
       </div>
@@ -45,12 +45,13 @@ const MainWrapper = styled.main`
       color: #cdcdff;
     }
     p{
-        margin-top: 2.4em;
-        font-size: 1rem;
-        max-width: 600px;
-        color:#90a0d9;
-        display: flex;
-        align-items: center;
+      margin-top: 2.4em;
+      font-size: 1rem;
+      max-width: 600px;
+      color:#90a0d9;
+      display: flex;
+      align-items: center;
+      text-align:center;
     }
   }
 `;
