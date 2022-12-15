@@ -48,7 +48,7 @@ const MainWrapper = styled.main`
       margin-top: 2.4em;
       font-size: 1rem;
       max-width: 600px;
-      color:#90a0d9;
+      color:${({theme})=>theme.colors.primary};
       display: flex;
       align-items: center;
       text-align:center;
