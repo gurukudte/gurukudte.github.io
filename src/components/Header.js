@@ -22,7 +22,7 @@ const HeaderWrapper = styled.header`
   display:flex;
   align-items :center;
 
-  height: 8em;
+  height: 8rem;
   max-width: 1100px;
   width: 95%;
   margin: 0 auto;
@@ -67,8 +67,11 @@ const HeaderWrapper = styled.header`
         margin-left:1.6rem;
         
         a{
+          color:#bdbddd;
+          font-size:16px;
+          line-height:24px;
           color:#90a0d9;
-          font-weight:400;
+          font-weight:500;
         }
       }
     }    

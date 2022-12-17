@@ -72,12 +72,14 @@ const MainWrapper = styled.main`
     }
     p {
       margin-top: 3em;
-      font-size: 1rem;
+      font-size: 16px;
+      line-height:24px;
       max-width: 600px;
-      color: ${({ theme }) => theme.colors.primary};
+      color: ${({ theme }) => theme.colors.secondary};
       display: flex;
       align-items: center;
       text-align: center;
+
     }
     div{
       margin-top:5rem;
@@ -92,7 +94,7 @@ const MainWrapper = styled.main`
         position: relative;
         
         span{
-          padding:1rem 1.4rem;
+          padding:0.8rem 1.4rem;
           border: 2px solid ${({ theme }) => theme.colors.primary};
         }
         svg{
@@ -124,9 +126,4 @@ const MainWrapper = styled.main`
       }
     }
   }
-`;
-
-const Container =styled.div`
-
-  
 `;

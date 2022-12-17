@@ -9,7 +9,7 @@ const GlobalStyles = createGlobalStyle`
         border: 0;
         outline: 0;
         box-sizing: border-box;
-        font-family: 'Poppins', sans-serif;
+        font-family: system-ui;
     }
     body{
         background-color: ${({theme})=>theme.colors.body};

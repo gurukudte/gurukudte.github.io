@@ -8,7 +8,8 @@ const theme = {
     header:'',
     body:'#23283e',
     footer:'',
-    primary:'#90a0d9'
+    primary:'#90a0d9',
+    secondary:'#bdbddd'
   }
 }
 
