@@ -53,7 +53,7 @@ margin:5rem;
 
     li{
       color:white;
-      background-color:#2a2f4c;
+      background-color:rgb(22 28 41/33%);
       list-style:none;
       text-transform: none;
       box-shadow: 0 3px 3px 0 rgb(0 0 0 / 15%);

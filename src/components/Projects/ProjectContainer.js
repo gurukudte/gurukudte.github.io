@@ -24,10 +24,12 @@ const ProjectContainer = ({ project }) => {
 export default ProjectContainer;
 
 const ProjectContainerWrapper = styled.div`
+  background-color:rgb(22 28 41/33%);
   display: grid;
   place-items:center;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 1em;
+  
 
   &:hover{
     transform: translateY(-7px);
@@ -37,6 +39,7 @@ const ProjectContainerWrapper = styled.div`
   margin:0 auto;
   box-shadow:rgba(0,0,0,0.16) 0px 10px 36px 0px,rgba(0,0,0,0.06) 0px 0px 0px 1px;
   transition: transform .2s linear,-webkit-transform .2s linear;
+  border-radius:20px;
   h3{
     color:#cdcdff;
     font-size:24px;

@@ -4,11 +4,12 @@ import Intro from './About/Intro';
 import Projects from './Projects/Projects';
 import Skills from './Skills/Skills';
 import Contact from './Contact/Contact';
+import Footer from './Footer/Footer';
 
 const theme = {
   colors:{
     header:'',
-    body:'#23283e',
+    body:'#030217',
     footer:'',
     primary:'#90a0d9',
     secondary:'#bdbddd'
@@ -28,10 +29,13 @@ function App() {
     <ThemeProvider theme = {theme}>
       <>
         <GlobalStyles/>
-        <Intro/>
-        <Projects/>
-        <Skills/>
-        <Contact/>
+        <div id="app">
+          <Intro/>
+          <Projects/>
+          <Skills/>
+          <Contact/>
+          <Footer/>
+        </div>
       </>
     </ThemeProvider>
   );

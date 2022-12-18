@@ -17,5 +17,23 @@ const GlobalStyles = createGlobalStyle`
     a{
         text-decoration:none;
     }
+    
+    /* width */
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(22 28 41/33%);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #807ae8;
+    border: 4px solid #030217;
+    border-radius: 0.5em;
+}
+
 `;
 export default GlobalStyles;
