@@ -1,7 +1,7 @@
 import { ThemeProvider } from 'styled-components';
-import Header from './Header';
-import Main from './Main';
 import GlobalStyles from './styled/Global';
+import Intro from './Intro/Intro';
+import Projects from './Projects/Projects';
 
 const theme = {
   colors:{
@@ -10,7 +10,14 @@ const theme = {
     footer:'',
     primary:'#90a0d9',
     secondary:'#bdbddd'
+  },
+  flex:{
+    flexCenter:'display:flex; align-items:center; justify-content:center;'
+  },
+  marginCenter:{
+    center:`max-width: 1100px; width: 95%; margin: 0 auto;`
   }
+
 }
 
 
@@ -19,8 +26,8 @@ function App() {
     <ThemeProvider theme = {theme}>
       <>
         <GlobalStyles/>
-        <Header/>
-        <Main/>
+        <Intro/>
+        <Projects/>
       </>
     </ThemeProvider>
   );

@@ -7,7 +7,7 @@ const Header = () => {
       <h3><a href="https://gurukudte.github.io/">Guru.K(dev)</a></h3>
       <nav>
         <ul>
-          <li><a href="#">Projects</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#">Skills</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
@@ -70,7 +70,7 @@ const HeaderWrapper = styled.header`
           color:#bdbddd;
           font-size:16px;
           line-height:24px;
-          color:#90a0d9;
+          color:${({theme})=>theme.colors.secondary};
           font-weight:500;
         }
       }

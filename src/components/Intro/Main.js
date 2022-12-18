@@ -10,8 +10,8 @@ const Main = () => {
         </h1>
         <h2>A Front End Engineer.</h2>
         <p>
-          I love to create beautiful and performant products with delightful
-          user experiences.
+          A self-taught front-end developer who loves to write clean code and
+          build beautiful user interfaces.
         </p>
         <div>
           <a href="htttp:example.com">
@@ -66,38 +66,36 @@ const MainWrapper = styled.main`
     h2 {
       margin-top: 2rem;
       font-size: 2rem;
-      font-weight:800;
+      font-weight: 800;
       line-height: 1.2;
       color: #cdcdff;
     }
     p {
       margin-top: 3em;
       font-size: 16px;
-      line-height:24px;
+      line-height: 24px;
       max-width: 600px;
       color: ${({ theme }) => theme.colors.secondary};
       display: flex;
       align-items: center;
       text-align: center;
-
     }
-    div{
-      margin-top:5rem;
+    div {
+      margin-top: 5rem;
 
-      display:flex;
-      flex-direction:row;
-      
+      display: flex;
+      flex-direction: row;
 
-      a{
-        color:${({ theme }) => theme.colors.primary};
-        margin-right:1rem;
+      a {
+        color: ${({ theme }) => theme.colors.primary};
+        margin-right: 1rem;
         position: relative;
-        
-        span{
-          padding:0.8rem 1.4rem;
+
+        span {
+          padding: 0.8rem 1.4rem;
           border: 2px solid ${({ theme }) => theme.colors.primary};
         }
-        svg{
+        svg {
           fill: currentColor;
           width: 1em;
           height: 1em;
@@ -108,19 +106,19 @@ const MainWrapper = styled.main`
           user-select: none;
         }
 
-        &:before{
+        &:before {
           content: "";
           display: inline;
           width: 0;
           height: 0.2em;
           position: absolute;
           bottom: 0;
-          transition: width .9s ease-in;
+          transition: width 0.9s ease-in;
         }
-        &:hover{
-          &:before{
-            width:100%;
-            background-color:${({theme})=>theme.colors.primary};
+        &:hover {
+          &:before {
+            width: 100%;
+            background-color: ${({ theme }) => theme.colors.primary};
           }
         }
       }
