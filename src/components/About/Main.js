@@ -105,22 +105,6 @@ const MainWrapper = styled.main`
           flex-shrink: 0;
           user-select: none;
         }
-
-        &:before {
-          content: "";
-          display: inline;
-          width: 0;
-          height: 0.2em;
-          position: absolute;
-          bottom: 0;
-          transition: width 0.9s ease-in;
-        }
-        &:hover {
-          &:before {
-            width: 100%;
-            background-color: ${({ theme }) => theme.colors.primary};
-          }
-        }
       }
     }
   }

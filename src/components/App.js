@@ -1,7 +1,9 @@
 import { ThemeProvider } from 'styled-components';
 import GlobalStyles from './styled/Global';
-import Intro from './Intro/Intro';
+import Intro from './About/Intro';
 import Projects from './Projects/Projects';
+import Skills from './Skills/Skills';
+import Contact from './Contact/Contact';
 
 const theme = {
   colors:{
@@ -28,6 +30,8 @@ function App() {
         <GlobalStyles/>
         <Intro/>
         <Projects/>
+        <Skills/>
+        <Contact/>
       </>
     </ThemeProvider>
   );
