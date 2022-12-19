@@ -26,6 +26,12 @@ export default Projects;
 const ProjectWrapper = styled.section`
   max-width: 1100px;
   margin:5rem;
+   
+  @media (max-width:600px){
+    margin:0.5em;
+    margin-top:2em;
+  }
+
   
   h2{
     position:relative;

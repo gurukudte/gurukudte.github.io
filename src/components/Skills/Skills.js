@@ -52,8 +52,8 @@ margin:5rem;
     gap:14px;
 
     li{
-      color:white;
-      background-color:rgb(22 28 41/33%);
+      color:#cdcdff;
+      background-color:#161c2954;
       list-style:none;
       text-transform: none;
       box-shadow: 0 3px 3px 0 rgb(0 0 0 / 15%);
