@@ -28,7 +28,7 @@ const ProjectWrapper = styled.section`
   margin:5rem;
    
   @media (max-width:600px){
-    margin:0.5em;
+    margin:1em;
     margin-top:2em;
   }
 

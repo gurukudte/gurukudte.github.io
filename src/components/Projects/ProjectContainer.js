@@ -41,7 +41,7 @@ const ProjectContainerWrapper = styled.div`
   margin:0 auto;
   box-shadow:rgba(0,0,0,0.16) 0px 10px 36px 0px,rgba(0,0,0,0.06) 0px 0px 0px 1px;
   transition: transform .2s linear,-webkit-transform .2s linear;
-  border-radius:10px;
+  border-radius:5px;
   h3{
     color:#cdcdff;
     font-size:24px;
